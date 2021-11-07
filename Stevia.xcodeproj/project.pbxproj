@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70C9DEF127372C1200165958 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C9DEF027372C1200165958 /* AppDelegate.swift */; };
+		70C9DEF327372C1200165958 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C9DEF227372C1200165958 /* SceneDelegate.swift */; };
+		70C9DEF527372C1200165958 /* SteviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C9DEF427372C1200165958 /* SteviaViewController.swift */; };
+		70C9DEFA27372C1500165958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70C9DEF927372C1500165958 /* Assets.xcassets */; };
+		70C9DEFD27372C1500165958 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70C9DEFB27372C1500165958 /* LaunchScreen.storyboard */; };
+		70C9DF0527372E3800165958 /* UIView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C9DF0427372E3800165958 /* UIView + Extensions.swift */; };
+		70C9DF0727372F6400165958 /* SteviaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C9DF0627372F6400165958 /* SteviaAPI.swift */; };
+		70C9DF0B2737833A00165958 /* CommentsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C9DF0A2737833A00165958 /* CommentsDetailViewController.swift */; };
+		70C9DF0D2737879E00165958 /* CommentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C9DF0C2737879E00165958 /* CommentViewCell.swift */; };
+		70C9DF0F2737880000165958 /* SteviaIssues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C9DF0E2737880000165958 /* SteviaIssues.swift */; };
+		70C9DF112737AF3F00165958 /* URLPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C9DF102737AF3F00165958 /* URLPath.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		70C9DEED27372C1200165958 /* Stevia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stevia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C9DEF027372C1200165958 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70C9DEF227372C1200165958 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		70C9DEF427372C1200165958 /* SteviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteviaViewController.swift; sourceTree = "<group>"; };
+		70C9DEF927372C1500165958 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70C9DEFC27372C1500165958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70C9DEFE27372C1500165958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70C9DF0427372E3800165958 /* UIView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extensions.swift"; sourceTree = "<group>"; };
+		70C9DF0627372F6400165958 /* SteviaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteviaAPI.swift; sourceTree = "<group>"; };
+		70C9DF0A2737833A00165958 /* CommentsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsDetailViewController.swift; sourceTree = "<group>"; };
+		70C9DF0C2737879E00165958 /* CommentViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewCell.swift; sourceTree = "<group>"; };
+		70C9DF0E2737880000165958 /* SteviaIssues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteviaIssues.swift; sourceTree = "<group>"; };
+		70C9DF102737AF3F00165958 /* URLPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLPath.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70C9DEEA27372C1200165958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70C9DEE427372C1200165958 = {
+			isa = PBXGroup;
+			children = (
+				70C9DEEF27372C1200165958 /* Stevia */,
+				70C9DEEE27372C1200165958 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70C9DEEE27372C1200165958 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70C9DEED27372C1200165958 /* Stevia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70C9DEEF27372C1200165958 /* Stevia */ = {
+			isa = PBXGroup;
+			children = (
+				70C9DEF027372C1200165958 /* AppDelegate.swift */,
+				70C9DEF227372C1200165958 /* SceneDelegate.swift */,
+				70C9DEF427372C1200165958 /* SteviaViewController.swift */,
+				70C9DF0C2737879E00165958 /* CommentViewCell.swift */,
+				70C9DF0A2737833A00165958 /* CommentsDetailViewController.swift */,
+				70C9DEF927372C1500165958 /* Assets.xcassets */,
+				70C9DEFB27372C1500165958 /* LaunchScreen.storyboard */,
+				70C9DEFE27372C1500165958 /* Info.plist */,
+				70C9DF0427372E3800165958 /* UIView + Extensions.swift */,
+				70C9DF0627372F6400165958 /* SteviaAPI.swift */,
+				70C9DF0E2737880000165958 /* SteviaIssues.swift */,
+				70C9DF102737AF3F00165958 /* URLPath.swift */,
+			);
+			path = Stevia;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70C9DEEC27372C1200165958 /* Stevia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70C9DF0127372C1500165958 /* Build configuration list for PBXNativeTarget "Stevia" */;
+			buildPhases = (
+				70C9DEE927372C1200165958 /* Sources */,
+				70C9DEEA27372C1200165958 /* Frameworks */,
+				70C9DEEB27372C1200165958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stevia;
+			productName = Stevia;
+			productReference = 70C9DEED27372C1200165958 /* Stevia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70C9DEE527372C1200165958 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					70C9DEEC27372C1200165958 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 70C9DEE827372C1200165958 /* Build configuration list for PBXProject "Stevia" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70C9DEE427372C1200165958;
+			productRefGroup = 70C9DEEE27372C1200165958 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70C9DEEC27372C1200165958 /* Stevia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70C9DEEB27372C1200165958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70C9DEFD27372C1500165958 /* LaunchScreen.storyboard in Resources */,
+				70C9DEFA27372C1500165958 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70C9DEE927372C1200165958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70C9DF0527372E3800165958 /* UIView + Extensions.swift in Sources */,
+				70C9DEF527372C1200165958 /* SteviaViewController.swift in Sources */,
+				70C9DF0F2737880000165958 /* SteviaIssues.swift in Sources */,
+				70C9DEF127372C1200165958 /* AppDelegate.swift in Sources */,
+				70C9DF0727372F6400165958 /* SteviaAPI.swift in Sources */,
+				70C9DEF327372C1200165958 /* SceneDelegate.swift in Sources */,
+				70C9DF0D2737879E00165958 /* CommentViewCell.swift in Sources */,
+				70C9DF112737AF3F00165958 /* URLPath.swift in Sources */,
+				70C9DF0B2737833A00165958 /* CommentsDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		70C9DEFB27372C1500165958 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70C9DEFC27372C1500165958 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70C9DEFF27372C1500165958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70C9DF0027372C1500165958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70C9DF0227372C1500165958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2596SYY23Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stevia/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.developer.seneza.Stevia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70C9DF0327372C1500165958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2596SYY23Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stevia/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.developer.seneza.Stevia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70C9DEE827372C1200165958 /* Build configuration list for PBXProject "Stevia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70C9DEFF27372C1500165958 /* Debug */,
+				70C9DF0027372C1500165958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70C9DF0127372C1500165958 /* Build configuration list for PBXNativeTarget "Stevia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70C9DF0227372C1500165958 /* Debug */,
+				70C9DF0327372C1500165958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70C9DEE527372C1200165958 /* Project object */;
+}
